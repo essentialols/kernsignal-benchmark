@@ -1,0 +1,23 @@
+Kernsignal evaluation benchmark
+Copyright (c) 2026 Ingmar Sturm. Code is released under the MIT License (see LICENSE).
+
+This repository ships no data. The benchmarks download third-party datasets
+that keep their own licenses:
+
+Twin-2K-500
+  Source:  https://huggingface.co/datasets/LLM-Digital-Twin/Twin-2K-500
+  Revision: f883165a3026fde855dfd448e0cd16443ab257b6
+  License: CC BY 4.0
+  Used:    GPT-4.1-mini simulation outputs and human survey responses from the
+           LLM_simulation_results directory. Attribute the dataset authors when
+           reusing it or any results derived from it.
+
+GSS replication package ("When Synthetic Users Fail")
+  Source:  https://github.com/ZihanChen1995/when-synthetic-users-fail-a-cross-domain-benchmark-of-llm-simulated-human-survey-responses
+  Commit:  76aa0376835b60c5dd54851a6fc4e77e32753465
+  License: MIT (code), CC BY 4.0 (data), per the package's own LICENSE files.
+           Some model outputs inside it (Llama) are additionally subject to the
+           Llama 3.x community licenses.
+  Used:    General Social Survey pilot sample and LLM runs. The package's World
+           Values Survey files are NOT used: their license (WVSA non-profit
+           replication only, no redistribution) does not allow it here.

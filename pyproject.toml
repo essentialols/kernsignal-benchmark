@@ -1,0 +1,11 @@
+[project]
+name = "kernsignal-benchmark"
+version = "0.1.0"
+description = "Open benchmark: when do synthetic survey respondents diverge from humans, and can that be predicted?"
+license = { text = "MIT" }
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-q"
